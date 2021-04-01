@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">CalcularNotas</string>
+    <string name="app_name">Calcular Nota</string>
     <string name="nota_1">Digite a primeira nota:</string>
     <string name="nota_2">Digite a segunda nota:</string>
     <string name="faltas">Digite o número de faltas:</string>
     <string name="botao_calcular">Calcular</string>
+    <string name="icone_splash">de Notas</string>
 </resources>
