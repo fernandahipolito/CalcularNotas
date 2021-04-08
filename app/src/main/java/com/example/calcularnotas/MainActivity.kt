@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
 
         botaoCalcular.setOnClickListener{
 
-            val nota1: Int = Integer.parseInt(edt_nota1.text.toString())
-            val nota2: Int = Integer.parseInt(edt_nota2.text.toString())
+            val nota1: Int? = Integer.parseInt(edt_nota1.text.toString())
+            val nota2: Int? = Integer.parseInt(edt_nota2.text.toString())
             val media: Int = (nota1+nota2)/2
-            val faltas: Int = Integer.parseInt(edt_faltas.text.toString())
+            val faltas: Int? = Integer.parseInt(edt_faltas.text.toString())
 
             if(media>=7 && faltas<=10){
                 resultado.setText("O aluno foi aprovado!! \n Média: $media \n  Número de Faltas: $faltas \n ")
